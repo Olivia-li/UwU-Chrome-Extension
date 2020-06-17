@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "UwU",
+  "description": "UwU Google",
+  "version": "1.0",
+  "icons": {"128": "icon_128.png"},
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab","contentSettings"],
+  "content_scripts": [{
+    "js": ["uwu.js"],
+    "matches": ["http://*.google.com/*","https://*.google.com/*"]
+  }]
+}
