@@ -11,6 +11,6 @@
   "permissions": ["activeTab","contentSettings"],
   "content_scripts": [{
     "js": ["uwu.js"],
-    "matches": ["http://*.google.com/*","https://*.google.com/*"]
+    "matches": ["<all_urls>"]
   }]
 }

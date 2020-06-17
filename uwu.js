@@ -36,6 +36,7 @@ var txtWalker = document.createTreeWalker (
 	},
 false
 );
+
 var txtNode = null;
 
 while (txtNode = txtWalker.nextNode () ) {
