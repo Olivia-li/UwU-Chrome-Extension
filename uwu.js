@@ -10,6 +10,7 @@ if (window.location.href == "https://www.google.com/"){
 }
 {/* <a href="https://ibb.co/Z8qgnD9"><img src="https://i.ibb.co/6Pjt3CQ/icon.png" alt="icon" border="0" /></a> */}
 {/* <a href="https://imgbb.com/"><img src="https://i.ibb.co/TLs5Ksv/icon-128.png" alt="icon-128" border="0" /></a> */}
+
 if (window.location.href.substring(0,30) == "https://www.google.com/search?"){
 	var oldLogo = document.getElementById('logo');
 	var newLogo = document.createElement('img');
@@ -98,7 +99,7 @@ if (node.nodeName.toLowerCase() == 'input' || node.nodeName.toLowerCase() == 'te
 	}
 }
 
-var faces=["(・`ω´・)",";;w;;","owo","UwU",">w<","^w^"];
+var faces=["(・`ω´・)","≧☉_☉≦","owo","UwU",">w<","^w^",">_>"];
 
 function handleText(textNode)
 {
